@@ -7,9 +7,9 @@ pages = [str(i) for i in range(1,3)]
 
 files = open('internships.csv','a')
 writer = csv.writer(files)
-# Add your filter for category eg. Computer Science
+# Add your filter here for category eg. Computer Science
 category = "computer%20science"
-#Add location
+#Add location here
 location = "mumbai"
 # header row of csv
 writer.writerow(['Title','Company Name','Location','Website'])
