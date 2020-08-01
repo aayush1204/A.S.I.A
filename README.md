@@ -12,13 +12,13 @@ Some modules are required, which can be installed by running the following comma
 
 - Make changes in `WebsiteScraper.py` 
      
-    - Initialize the variables category and location according to ur preferance. Check my default initialization for example
+    - Initialize the variables ```category``` and ```location``` according to ur preferance. Check my default initialization for example
 
 - Make changes in `FinalEmailSender.py`
 
-    - U need to initialize fromaddr with your email address (the one from which email will be sent) and the password of that account needs to be added in the run function of the      class `EmailThread`
-    - Similarly initialize the Subject and the body according to the internship profile you want to apply
-    - Initialize the variable "filename" with whatever file you want to attach to the email along with its extension eg. LOR.pdf
+    - U need to initialize ```fromaddr``` with your email address (the one from which email will be sent) and the password of that account needs to be added in the ```run``` function of the class `EmailThread`
+    - Similarly initialize the ```Subject``` and the ```body``` according to the internship profile you want to apply
+    - Initialize the variable ```filename``` with whatever file you want to attach to the email along with its extension eg. LOR.pdf .Also, provide the path of that file in your local desktop in ```attachment```
        
 
 ## Running the code
