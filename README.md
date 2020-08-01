@@ -1,6 +1,6 @@
 # A.S.I.A
 
-It is a webscraper which collects all the emails of all the compaies posting internship opportunities on Internshala and then it sends an email to apply for the internship position along with your resume attached. 
+It is a webscraper which collects all the emails of all the companies posting internship opportunities on Internshala and then it sends an email to apply for the internship position along with your resume attached. 
 
 ### Prerequisites
 
